@@ -1,0 +1,6 @@
+name: TNTLauncher
+version: '1.0'
+main: de.jutechs.tntLauncher.Main
+api-version: '1.21'
+description: A Plugin thats adds a custom TNT Launcher with custom crafting, shooting TNT that explodes on impact.
+author: Jutechs
