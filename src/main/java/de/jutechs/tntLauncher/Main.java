@@ -88,7 +88,7 @@ public final class Main extends JavaPlugin implements Listener {
             // Check cooldown
             if (cooldowns.containsKey(playerId)) {
                 long lastUse = cooldowns.get(playerId);
-                if (currentTime - lastUse < 300) { // 100 milliseconds cooldown
+                if (currentTime - lastUse < 200) { // 100 milliseconds cooldown
                     return; // Ignore the interaction if still on cooldown
                 }
             }
